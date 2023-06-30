@@ -1,0 +1,1 @@
+﻿Khi hover vào danh mục "News" tự sổ ra menu cấp 2. Các bạn dùng thuộc tính (Display: none;) để ẩn menu cấp 2 và dùng (Display: block;) để hiện lại khi ta hover. Chúc các bạn làm bài tốt. Ahihi huhu haha ^^

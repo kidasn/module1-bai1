@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table và Form</title>
+</head>
+<style>
+    td{
+        align:center   
+    }
+</style>
+<body>
+    <!-- table là để tạo bảng
+    các thành phần chính:
+    thead
+    <tbody>
+    <tfoot>
+    <tr>
+    <td>
+    cellpadding là khoảng cách giữa content đến khung
+    cellspacing là khoảng cách giữa các khung
+    cách gộp cột trong bảng colspan
+    cách gộp hàng trong bảng rowspan
+         -->
+    <table border="1" cellpadding="10" cellspacing="5">
+        <caption style="color: blue;font-weight: 5000px;">DANH SÁCH SINH VIÊN</caption>
+      <thead>
+        <tr>
+            <th>STT</th>
+            <th>Họ và tên</th>
+            <th>MSSV</th>
+            <th>Quê quán</th>
+            <th>SDT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td align="center">1</td>
+            <td>Trương Hải Đức</td>
+            <td align="center">1423</td>
+            <td>Quảng Trị</td>
+            <td>0826984896</td>
+        <tr>
+            <td align="center">1</td>
+            <td>Tạ Phương Thảo</td>
+            <td align="center">1453</td>
+            <td>Quảng Trị</td>
+            <td>0369852158</td>
+            <tr>
+                <td align="center">1</td>
+                <td>Tạ Phương Thảo</td>
+                <td align="center">1453</td>
+                <td>Quảng Trị</td>
+                <td>0369852158</td>  
+      </tbody>  
+        <tfoot>
+                <td colspan="3"> Tổng số sinh viên là </td>
+                <td colspan="2"> 4</td>
+            
+        </tfoot>
+    </table>
+</body>
+</html>

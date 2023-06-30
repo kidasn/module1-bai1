@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        height: 50px;
+        background-color: #0282D3;
+    }
+
+    .rơw {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .header .left {
+        width: 60%;
+        height: 100%;
+        float: left;
+
+    }
+
+    .header .right {
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    .header li {
+        list-style: none;
+        display: inline-block;
+        line-height: 50px;
+        color: white;
+    }
+
+    .header .right li {
+        padding-left: 30px;
+    }
+
+    .header li img {
+        position: relative;
+        top: 3px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 200px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .logo img {
+        height: 100%;
+
+    }
+
+    /* CSS phần body */
+    .body {
+        width: 100%;
+        height: 40px;
+        background-color: #0282D3;
+    }
+
+    .bodyrow {
+        width: 80%;
+        height: 100%;
+        background-color: blueviolet;
+        margin: auto;
+    }
+
+    .body .bdleft {
+        height: 100%;
+        width: 17%;
+        float: left;
+        background-color: rgb(6, 52, 83);
+        text-align: center;
+    }
+
+    .body .bdright {
+        height: 100%;
+        width: 83%;
+        float: left;
+        background-color: #0282D3;
+    }
+
+    .body .bdleft li {
+        list-style: none;
+        color: white;
+        line-height: 40px;
+    }
+
+    .body .bdright li {
+        list-style: none;
+        color: white;
+        line-height: 40px;
+        display: inline-block;
+        padding: 0 30px;
+    }
+
+    .giaodien {
+        width: 100%;
+
+    }
+
+    .giaodien .row {
+        width: 80%;
+        margin: auto;
+    }
+
+    .giaodien .left {
+        width: 17%;
+        float: left;
+    }
+    .giaodien li{
+        list-style: none;
+        border: 1px solid;
+        border-color: rgb(0, 0, 0,0.2);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        color: rgb(0, 0, 0,0.5);
+        font-weight: bold;
+        border-radius: 1px;
+    }
+    .giaodien img{
+        padding: 20px;
+        width: 1100px;
+        height: 400px;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="rơw">
+                <div class="left">
+                    <ul>
+                        <li>
+                            <img src="../BaiTap_Buoi3/Bai2/image/time.png" alt="">
+                            <span>Th2-Th7 8.30 - 18.00</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><img src="../BaiTap_Buoi3/Bai2/image/tai_khoan.png" alt="">
+                            <span>Tài khoản của tôi</span>
+                        </li>
+                        <li><img src="../BaiTap_Buoi3/Bai2/image/gio_hang.png" alt="">
+                            <span>Giỏ hàng</span>
+                        </li>
+                        <li><span>Đăng nhập</li>
+                        <li><span>Đăng ký</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="../BaiTap_Buoi3/Bai2/image/logo.png" alt="">
+        </div>
+        <!-- Phần body -->
+        <div class="body">
+            <div class="bodyrow">
+                <div class="bdleft">
+                    <ul>
+                        <li><span>Hạng mục</span></li>
+                    </ul>
+                </div>
+                <div class="bdright">
+                    <ul>
+                        <li>TRANG CHỦ</li>
+                        <li>GIỚI THIỆU</li>
+                        <li>TIN TỨC</li>
+                        <li>SẢN PHẨM</li>
+                        <li>HỎI ĐÁP</li>
+                        <li>TUYỂN DỤNG</li>
+                        <li>LIÊN HỆ</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="giaodien">
+            <div class="row">
+                <div class="left">
+                        <ul>
+                            <li>Lập trình Web</li>
+                            <li>Lập trình Java</li>
+                            <li>Lập trình Android</li>
+                            <li>Lập trình Unity</li>
+                            <li>Lập trình Cshap</li>
+                            <li>Photoshop</li>
+                            <li>Lập trình Ứng Dụng</li>
+                            <li>Seo - Marketing</li>
+                        </ul>
+                </div>
+                <div class="right">
+                    <img src="../BaiTap_Buoi3/Bai2/image/web.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
